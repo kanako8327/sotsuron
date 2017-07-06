@@ -10,7 +10,7 @@
 
  */
 
-document.write("JavaScriptはOnです。");
+document.write("JavaScriptはOです。");
 
 var ThView = function(arg) {
 
