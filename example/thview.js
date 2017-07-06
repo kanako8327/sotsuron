@@ -452,7 +452,7 @@ ThView.prototype.show = function() {
 
 	this.camera = new THREE.PerspectiveCamera(this.zoom, this.width / this.height);
 
-	this.camera.position = new THREE.Vector3(0, 0, 0);
+	this.camera.position = new THREE.Vector3(90, 90, 90);
 
 	this.camera.lookAt(this.cameraDir);
 
