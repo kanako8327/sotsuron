@@ -48,7 +48,7 @@ var ThView = function(arg) {
 
 	this.firstview = (arg.firstview == undefined) ? 0 : this.d2r(-arg.firstview);// 0 .. 360 (0)
 
-	this.degree = (arg.degree == undefined) ? [0, 0, 0]						// [0,0,0] .. [360,360,360] ([0,0,0])
+	this.degree = (arg.degree == undefined) ? [90, 90, 90]						// [0,0,0] .. [360,360,360] ([0,0,0])
 
 					: [this.d2r(arg.degree[0]), this.d2r(arg.degree[1]), this.d2r(arg.degree[2])];
 
@@ -452,7 +452,7 @@ ThView.prototype.show = function() {
 
 	this.camera = new THREE.PerspectiveCamera(this.zoom, this.width / this.height);
 
-	this.camera.position = new THREE.Vector3(90, 90, 90);
+	this.camera.position = new THREE.Vector3(0, 0, 0);
 
 	this.camera.lookAt(this.cameraDir);
 
