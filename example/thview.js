@@ -10,7 +10,7 @@
 
  */
 
-document.write("JavaScriptはoです。");
+document.write("JavaScriptはonです。");
 
 var ThView = function(arg) {
 
@@ -34,9 +34,9 @@ var ThView = function(arg) {
 
 
 
-	this.width = (arg.width == undefined) ? 500 : arg.width;				// pixel (500)
+	this.width = (arg.width == undefined) ? 1000 : arg.width;				// pixel (500)
 
-	this.height = (arg.height == undefined) ? 300 : arg.height;				// pixel (300)
+	this.height = (arg.height == undefined) ? 600 : arg.height;				// pixel (300)
 
 	this.rotation = (arg.rotation == undefined) ? false : arg.rotation;		// true/false (false)
 
