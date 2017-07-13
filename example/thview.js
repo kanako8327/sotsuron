@@ -10,7 +10,7 @@
 
  */
 
-document.write("JavaScriptはonです。");
+document.write("JavaScriptはoです。");
 
 var ThView = function(arg) {
 
@@ -48,7 +48,7 @@ var ThView = function(arg) {
 
 	this.firstview = (arg.firstview == undefined) ? 0 : this.d2r(-arg.firstview);// 0 .. 360 (0)
 
-	this.degree = (arg.degree == undefined) ? [0, 95.7, 0]						// [0,0,0] .. [360,360,360] ([0,0,0])
+	this.degree = (arg.degree == undefined) ? [0, 95.75, 0]						// [0,0,0] .. [360,360,360] ([0,0,0])
 
 					: [this.d2r(arg.degree[0]), this.d2r(arg.degree[1]), this.d2r(arg.degree[2])];
 
